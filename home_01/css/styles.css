@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #efefef;
+}
+.myname h2{
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.foto img{
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.rezume{
+	background-color: #ffffff;
+	display: block;
+	margin: 0 auto;
+	width: 514px;
+	border: 1px solid #d6d6d6;
+	padding: 56px;
+	line-height: 2;
+	font-size: 14px;
+  font-family: 'Fanfare URW D Cond', sans-serif;
+}
+.stady, .vk{
+	 border-bottom: 1px solid #7b7b7b;
+	 padding-bottom: 20px;
+}
+.front_end1, .front_end2, .contact{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.front_end2{
+	border-bottom: 1px solid #7b7b7b;
+	padding-left: 40px;
+}
+.fidback{
+padding-top: 20px;
+}

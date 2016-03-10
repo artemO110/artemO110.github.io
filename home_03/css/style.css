@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    display: block;
+    margin: 0 auto;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+    width: 80%;
+}
+.header{
+    padding: 20px 30px;
+    font-size: 60px;
+}
+/*Стили для меню горизонтального*/
+.menu{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;    
+    background-color: #515151;    
+}
+.menu li{
+    display: inline-block;
+    padding: 10px 50px;
+    margin-right: 5px;   
+}
+.menu a{
+    color: #fff;   
+    text-decoration: none;
+}
+    .menu li:hover{
+        background-color: #404040;
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
+    }
+/*Стили для меню вертикального(бокового)*/
+    .sidebar{
+        float: left;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        margin-top: 30px;
+        margin-left: 37px;
+    }
+    .sidebar li{
+        display: block;
+        border: 1px solid #bdbdbd;
+
+        padding: 10px 20px;
+        /*margin-right: 5px;*/
+        width: 250px;    
+    }
+    .sidebar a{
+        color: #bdbdbd;  
+        text-decoration: none;
+    }
+    .sidebar a:hover{
+        /*background-color: red;*/
+        margin-left: 20px;
+        color: #000;
+    }
+    .fantom{
+        display: block;
+        height: 400px;
+        background-color: green;
+    }    
+    /*Стили для контента*/
+    .content{
+        width: 100%;
+    }
+    .foto img{
+        border: 1px solid #bdbdbd;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        height: 300px;
+        padding: 100px 100px;
+    }
+    .warapper{
+        text-align: left;
+        
+        float: right;
+        width: 64%;
+        padding-right: 20px;
+    }
+    /*Стили для футера*/
+    .footer{
+        width: 95%;
+        display: block;
+        margin: 80px auto 30px;     
+        position: relative;
+        overflow: hidden;
+        background-color: #e1e1e1;
+    }    
+    .footer li{
+        display: inline-block;
+        padding: 10px 60px;
+        margin-right: 5px;
+    }
+    .footer a{
+        color: #000;   
+        text-decoration: none;
+    }
+    .footer li:hover{
+
+    }
+    .footer a:hover{
+        text-decoration: underline;
+    }
+    .rights{
+        float: right;
+        padding: 10px;
+        margin-right: 10px;
+    }
