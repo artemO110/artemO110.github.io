@@ -1,0 +1,83 @@
+@media screen 
+and (max-width: 768px){
+	head {
+	width: 500px;
+}
+header {
+	padding-top: 30px;
+	width: 768px;
+}
+.header__logo{
+	margin-top: 0%;
+	}
+	.header__menu {
+	margin-top: 40px;
+	float: right;
+}
+.header__item {
+	
+	margin-left: 0px;
+	margin-right: 42px;
+}
+.main__content {
+	width: 768px;
+	}
+.main__text {
+	width: 365px;
+}
+.main__text--text {
+	width: 360px;	
+}
+.main__img {
+	top: -18px;
+	right: 40px;
+}
+.info {
+	width: 744px;
+	margin: auto;
+	padding: 70px 0;
+}
+.info__box {
+	width: 186px;
+	padding-left: 0px;
+	margin-right: 0px;
+}
+.info__box:nth-child(2) {
+	margin: 0 97px 0 37px;
+}
+.info__text--head {
+	width: 150px;
+	margin-top: 4px;
+	font-size: 1.4em;
+	margin-left: 0px;
+}
+.info__text--text {
+	width: 150px;
+	font-size: 0.8em;
+	line-height: 24px;
+	letter-spacing: -0.1px;	
+}
+.info__readmore {
+		margin-right: 62px;
+}
+.blog {
+	width: 768px;
+}
+.blog__blockquote {
+	width: 256px;
+}
+.blog__text--text {
+	width: 290px;
+}
+.blog__updates {
+	width: 383px;
+}
+.logos img{
+	width: 600px; 
+}
+.bottom {
+		width: 768px;
+	}
+.bottom__box1, .bottom__box2, .bottom__box3 {
+	width: 219px;
+}
