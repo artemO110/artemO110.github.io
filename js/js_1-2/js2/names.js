@@ -4,6 +4,8 @@ for (var i = 0; i < 5; i++) {
 	names.push(prompt('enter your name'));
 	console.log(names)
 }
+
+
 var userName = prompt('Enter username please');
 
 
@@ -15,7 +17,7 @@ for (var i = 0; i < names.length; i++) {
 	var nameItem = names[i];
 
 	if (nameItem == userName) {
-		var rightName = true;
+		rightName = true;
 		alert('Congratulations ' + userName + '! Login succesfull')
 		break
 	} 
