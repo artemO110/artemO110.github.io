@@ -1,0 +1,23 @@
+ul{
+list-style-type: none;
+}
+li{
+display: block;
+float: left;
+padding: 10px;
+border: solid 2px #089;
+margin: 10px;
+background: #888;
+
+}
+a{
+color: orange;
+text-decoration: none;
+}
+a:hover{
+	color: green;
+	}
+li:hover{
+		background: #234;
+		cursor: pointer;
+}
